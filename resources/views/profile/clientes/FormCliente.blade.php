@@ -22,7 +22,7 @@
         <aside class="w-72"></aside>
 
         <!-- Page Content -->
-        <main class="flex-1 p-4">
+        <main class="flex-1 p-4" >
             <h1 class="text-2xl font-semibold mb-4">Registrar nuevo cliente</h1>
 
             <form method="POST" action="{{ route('cliente.store') }}">
